@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Markit Media - A New-Gen Content Marketing</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+      /* Adding custom styles here instead of inline for better practice */
+      .hero-wrap {
+        position: relative;
+        color: #fff;
+        text-align: center;
+      }
+      
+      .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      
+      .logo-section {
+        margin-bottom: 20px;
+      }
+      
+      .logo a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+      }
+      
+      .logo span {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+      
+      .logo img {
+        height: 180px;
+        width: auto;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+      }
+      
+      .logo small {
+        display: block;
+        font-size: 0.8rem;
+        color: #fff;
+        opacity: 0.8;
+      }
+      
+      .text-content {
+        padding: 20px;
+      }
+      
+      .heading-hero {
+        font-size: 3.5rem;
+        font-weight: bold;
+        line-height: 1.2;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+      
+      .hero-description {
+        font-size: 1rem;
+        line-height: 1.6;
+        max-width: 600px;
+        margin: 0 auto;
+        opacity: 0.8;
+      }
+      
+      .btn-custom {
+        background: #ff5722;
+        color: white;
+        padding: 12px 30px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.1rem;
+        display: inline-block;
+        transition: background 0.3s;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      }
+      
+      .btn-custom:hover {
+        background: #e64a19;
+        color: white;
+        text-decoration: none;
+      }
+      
+      .creator-carousel {
+        overflow-x: hidden;
+        white-space: nowrap;
+        padding: 20px 0;
+        scroll-behavior: smooth;
+      }
+      
+      .creator-item {
+        display: inline-block;
+        width: 250px;
+        margin-right: 20px;
+        text-align: center;
+        vertical-align: top;
+        transition: transform 0.3s ease;
+      }
+      
+      .creator-item img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+      
+      .creator-item:hover {
+        transform: scale(1.05);
+      }
+      
+      .scroll-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 24px;
+        z-index: 1;
+      }
+      
+      .left-btn {
+        left: 0;
+      }
+      
+      .right-btn {
+        right: 0;
+      }
+      
+      .scroll-btn:hover {
+        background: rgba(0, 0, 0, 0.8);
+      }
+      
+      /* Add responsive image class */
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Improve project section */
+      .model.video {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 30px;
+        background: #eee;
+        border-radius: 8px;
+      }
+      
+      .video-thumbnail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      .video-desc {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 15px;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+      }
+      
+      /* Footer improvements */
+      .footer-logo img {
+        height: 100px;
+        width: auto;
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: contain;
+      }
+      
+      /* Add smooth scrolling for better UX */
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      @media (max-width: 768px) {
+        .heading-hero {
+          font-size: 2.5rem;
+        }
+        
+        .hero-description {
+          font-size: 0.9rem;
+        }
+        
+        .creator-item {
+          width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+	
+    <!-- Navigation Section with Embedded CSS and JavaScript -->
+<nav id="navbar" class="navbar">
+
+	<ul class="nav-menu">
+	  <li>
+		<a data-scroll="home" href="#home" class="dot active">
+		  <span>Home</span>
+		</a>
+	  </li>
+	  <li>
+		<a data-scroll="about" href="#about" class="dot">
+		  <span>About</span>
+		</a>
+	  </li>
+	  <li>
+		<a data-scroll="services" href="#services" class="dot">
+		  <span>Services</span>
+		</a>
+	  </li>
+	  <li>
+		<a data-scroll="projects" href="#projects" class="dot">
+		  <span>Projects</span>
+		</a>
+	  </li>
+	  <li>
+		<a data-scroll="collabs" href="#collabs" class="dot">
+		  <span>Collaborations</span>
+		</a>
+	  </li>
+	  <li>
+		<a data-scroll="contact" href="#contact" class="dot">
+		  <span>Contact</span>
+		</a>
+	  </li>
+	</ul>
+	
+	<script>
+	  document.addEventListener('DOMContentLoaded', function() {
+		// Get all navigation dots
+		const navLinks = document.querySelectorAll('.nav-menu .dot');
+		const sections = document.querySelectorAll('section');
+		
+		// Handle click on navigation dots
+		navLinks.forEach(link => {
+		  link.addEventListener('click', function(e) {
+			e.preventDefault();
+			
+			// Remove active class from all links
+			navLinks.forEach(dot => dot.classList.remove('active'));
+			
+			// Add active class to current link
+			this.classList.add('active');
+			
+			// Get the target section id
+			const targetId = this.getAttribute('href');
+			
+			// Smooth scroll to target section
+			document.querySelector(targetId).scrollIntoView({
+			  behavior: 'smooth'
+			});
+		  });
+		});
+		
+		// Update active dot on scroll
+		window.addEventListener('scroll', function() {
+		  let current = '';
+		  
+		  sections.forEach(section => {
+			const sectionTop = section.offsetTop;
+			const sectionHeight = section.clientHeight;
+			
+			if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+			  current = section.getAttribute('id');
+			}
+		  });
+		  
+		  navLinks.forEach(link => {
+			link.classList.remove('active');
+			if (link.getAttribute('href') === `#${current}`) {
+			  link.classList.add('active');
+			}
+		  });
+		});
+	  });
+	</script>
+  </nav>
+  <!-- End Navigation Section -->
+
+    <!-- Start Home Section -->
+		<section id="home" class="hero-wrap js-fullheight" style="background-image: url(images/bg-1.jpg); position: relative; color: #fff; text-align: center;">
+			<div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+					<div class="col-lg-7 ftco-animate d-flex flex-column align-items-center">
+						<!-- Logo Section 
+						<div class="logo-section" style="margin-bottom: 20px;">
+							<h1 class="logo" style="font-size: 2rem; font-weight: bold; color: #fff; text-transform: uppercase;">
+								<a href="index.html" style="text-decoration: none; color: #fff; display: block;">
+									<span style="display: inline-block; margin-bottom: 10px;">
+										<img src="images/MM_logo.png" alt="Markit Media" 
+											style="height: 180px; width: auto; max-width: 100%; display: block; margin: 0 auto; object-fit: contain;">
+									</span>
+									<small style="display: block; font-size: 0.8rem; color: #fff; opacity: 0.8;">Content Creation / Digital Marketing</small>
+								</a>
+							</h1>
+						</div>
+						 End Logo Section -->
+
+						<div class="logo-section" style="margin-bottom: 20px; text-align: center; background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px); padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);">
+							<h1 class="logo" style="font-size: 2rem; font-weight: bold; color: #fff; text-transform: uppercase; margin: 0;">
+								<a href="index.html" style="text-decoration: none; color: #fff; display: block;">
+									<img src="images/MM_logo.png" alt="Markit Media" 
+										 style="height: 200px; width: auto; max-width: 100%; display: block; margin: 0 auto; object-fit: contain;">
+									<h5 class="slogan" style="font-size: 2.5rem; font-weight: bold; line-height: 1.2; text-transform: uppercase; margin-bottom: 20px; color: #fff; text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);">
+										We Make<br>Something Creative
+									</h5>
+								</a>
+							</h1>
+						</div>
+
+						<!-- Text Content -->
+						<div class="text-content" style="padding: 20px;">
+							<p class="mb-4" style="font-size: 1rem; line-height: 1.6; max-width: 600px; margin: 0 auto; opacity: 0.8;">
+								Markit Media specializes in new-age content creation, bridging the gap between content creators and brands. We discover emerging talent, analyze their potential reach and audience types, and align them with tailored brand promotions. By connecting innovative creators with strategic opportunities, we redefine digital marketing for the modern era.
+							</p>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Home Section -->
+	
+    <!-- Start About Us Section -->
+    <section class="ftco-about img ftco-section" id="about">
+      <div class="container">
+        <div class="row d-flex no-gutters">
+          <div class="col-md-6 col-lg-6 d-flex">
+            <div class="img-about img d-flex align-items-stretch">
+              <div class="overlay"></div>
+              <div class="img img-video d-flex align-self-stretch align-items-center" style="background-image:url(images/model-11.jpg);">
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 col-lg-6 pl-md-5">
+            <div class="heading-section ftco-animate">
+              <h2 class="mb-4">Markit Media is Where Creativity Meets Opportunity, <br>Redefining Content Marketing</h2>
+              <p>At Markit Media, we connect creators with brands to craft compelling narratives that resonate. 
+                By discovering fresh talent and curating tailored collaborations, we amplify impact through innovative campaigns and dynamic storytelling. 
+                Redefining digital marketing, we bridge creativity and strategy to deliver authentic connections.
+              </p>
+
+              <div class="counter-wrap ftco-animate d-flex my-md-4">
+                <div class="text">
+                  <p class="mb-4">
+                    <span class="number" data-number="50">0</span>
+                    <span>Projects completed</span>
+                  </p>
+                </div>
+              </div>
+              <div class="d-flex w-100">
+                <div class="img img-about-2 mr-2" style="background-image: url(images/Img-3.png);"></div>
+                <div class="img img-about-2 ml-2" style="background-image: url(images/about-3.jpg);"></div>
+              </div>
+              <blockquote class="blockquote mt-5">
+                <p class="mb-2">
+                  "Content creation isn't just about telling a story; it's about crafting an experience that connects, inspires, and drives action"
+                </p>
+                <span>— Markit Media Team</span>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Us Section -->
+
+	<section class="services-section" id="services">
+		<style>
+			:root {
+				--font-family-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+				--font-family-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+			}
+	
+			.services-section {
+				background-color: #191a1c;
+				color: #fff;
+				padding: 7em 0;
+				font-family: var(--font-family-sans);
+				line-height: 1.8;
+				font-weight: 400;
+			}
+	
+			.section-header {
+				text-align: center;
+				margin-bottom: 3rem;
+			}
+	
+			.section-title {
+				font-size: 2.5rem;
+				color: #fff;
+				margin-bottom: 1rem;
+				font-family: var(--font-family-sans);
+				font-weight: 700;
+				line-height: 1.2;
+			}
+	
+			.section-description {
+				font-size: 1rem;
+				color: #9da1a5;
+				max-width: 600px;
+				margin: 0 auto 2rem;
+				line-height: 1.8;
+				font-weight: 400;
+			}
+	
+			.filter-buttons {
+				display: flex;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 1rem;
+				margin-bottom: 3rem;
+			}
+	
+			.filter-button {
+				padding: 0.75rem 1.5rem;
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				background-color: transparent;
+				color: #9da1a5;
+				cursor: pointer;
+				transition: all 0.3s ease;
+				font-family: var(--font-family-sans);
+				font-size: 0.875rem;
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				border-radius: 30px;
+			}
+	
+			.filter-button:hover {
+				background-color: rgba(255, 255, 255, 0.05);
+			}
+	
+			.filter-button.active {
+				background-color: #F96D00;
+				border-color: #F96D00;
+				color: #fff;
+			}
+	
+			.services-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+				gap: 2rem;
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 15px;
+			}
+	
+			.service-card {
+				background: #202224;
+				border-radius: 4px;
+				padding: 2rem;
+				transition: all 0.3s ease;
+				border: 1px solid rgba(255, 255, 255, 0.1);
+			}
+	
+			.service-card:hover {
+				transform: translateY(-10px);
+				box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+			}
+	
+			.service-icon {
+				width: 60px;
+				height: 60px;
+				margin: 0 auto 1.5rem;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background: rgba(249, 109, 0, 0.1);
+				border-radius: 50%;
+				border: 2px solid #F96D00;
+			}
+	
+			.service-icon i {
+				font-size: 1.5rem;
+				color: #F96D00;
+			}
+	
+			.service-title {
+				font-size: 1rem;
+				text-align: center;
+				margin-bottom: 1rem;
+				color: #fff;
+				font-family: var(--font-family-sans);
+				font-weight: 600;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
+	
+			.service-description {
+				color: #9da1a5;
+				text-align: center;
+				margin-bottom: 1.5rem;
+				font-size: 0.875rem;
+				line-height: 1.8;
+			}
+	
+			.service-features {
+				list-style: none;
+				padding: 0;
+				margin: 0;
+			}
+	
+			.service-features li {
+				display: flex;
+				align-items: center;
+				margin-bottom: 0.8rem;
+				color: rgba(255, 255, 255, 0.7);
+				font-size: 0.875rem;
+				line-height: 1.8;
+			}
+	
+			.service-features li::before {
+				content: "";
+				width: 8px;
+				height: 8px;
+				background: #F96D00;
+				border-radius: 50%;
+				margin-right: 0.8rem;
+				flex-shrink: 0;
+			}
+	
+			.platforms-grid {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				gap: 1rem;
+			}
+	
+			.platform-item {
+				display: flex;
+				align-items: center;
+				padding: 0.8rem;
+				background: rgba(255, 255, 255, 0.05);
+				border-radius: 4px;
+				transition: all 0.3s ease;
+			}
+	
+			.platform-item:hover {
+				background: rgba(255, 255, 255, 0.1);
+			}
+	
+			.platform-item i {
+				margin-right: 0.8rem;
+				font-size: 1rem;
+				color: #F96D00;
+			}
+	
+			.platform-item span {
+				color: rgba(255, 255, 255, 0.7);
+				font-size: 0.875rem;
+			}
+	
+			@media (max-width: 768px) {
+				.services-section {
+					padding: 4em 1em;
+				}
+				
+				.section-title {
+					font-size: 2rem;
+				}
+				
+				.services-grid {
+					grid-template-columns: 1fr;
+				}
+	
+				.filter-button {
+					padding: 0.5rem 1rem;
+					font-size: 0.75rem;
+				}
+			}
+		</style>
+
+
+	
+		<!-- Add Bootstrap Icons CDN -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	
+
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-6 heading-section text-center ftco-animate">
+				<h2 class="mb-4">Our Services</h2>
+				<p>We provide the strategy, tools, and insights to turn your digital presence into real success.</p>
+			</div>
+			</div>
+			<div class="filter-buttons">
+				<button class="filter-button active" data-category="all">All Services</button>
+				<button class="filter-button" data-category="digital">Digital Brand</button>
+				<button class="filter-button" data-category="web">Web Development</button>
+				<button class="filter-button" data-category="seo">SEO</button>
+				<button class="filter-button" data-category="social">Social Media</button>
+				<button class="filter-button" data-category="ads">Advertising</button>
+			</div>
+			
+		</div>
+		
+		<!--
+		<div class="section-header ftco-animate">
+			<h2 class="section-title">Our Services</h2>
+			<p class="section-description">Comprehensive digital solutions to grow your brand online</p>
+			
+			<div class="filter-buttons">
+				<button class="filter-button active" data-category="all">All Services</button>
+				<button class="filter-button" data-category="digital">Digital Brand</button>
+				<button class="filter-button" data-category="web">Web Development</button>
+				<button class="filter-button" data-category="seo">SEO</button>
+				<button class="filter-button" data-category="social">Social Media</button>
+				<button class="filter-button" data-category="ads">Advertising</button>
+			</div>
+		</div>
+	     -->
+
+		<div class="services-grid">
+			<!-- Digital Brand Management -->
+			<div class="service-card ftco-animate" data-category="digital">
+				<div class="service-icon">
+					<i class="bi bi-graph-up-arrow"></i>
+				</div>
+				<h3 class="service-title">Digital Brand Management</h3>
+				<p class="service-description">Comprehensive brand strategy and management across digital platforms.</p>
+				<ul class="service-features">
+					<li>Brand Strategy Development</li>
+					<li>Online Reputation Management</li>
+					<li>Brand Voice & Identity</li>
+					<li>Content Strategy</li>
+				</ul>
+			</div>
+	
+			<!-- Website Development -->
+			<div class="service-card ftco-animate" data-category="web">
+				<div class="service-icon">
+					<i class="bi bi-laptop"></i>
+				</div>
+				<h3 class="service-title">Website Development</h3>
+				<p class="service-description">Custom website development solutions with stunning design.</p>
+				<ul class="service-features">
+					<li>Custom Web Design</li>
+					<li>E-commerce Solutions</li>
+					<li>Mobile Responsive</li>
+					<li>Performance Optimization</li>
+				</ul>
+			</div>
+	
+			<!-- SEO -->
+			<div class="service-card ftco-animate" data-category="seo">
+				<div class="service-icon">
+					<i class="bi bi-search"></i>
+				</div>
+				<h3 class="service-title">Search Engine Optimization</h3>
+				<p class="service-description">Data-driven SEO strategies to improve visibility.</p>
+				<ul class="service-features">
+					<li>Technical SEO</li>
+					<li>Content Optimization</li>
+					<li>Local SEO</li>
+					<li>Keyword Research</li>
+				</ul>
+			</div>
+	
+			<!-- Social Media Marketing -->
+			<div class="service-card ftco-animate" data-category="social">
+				<div class="service-icon">
+					<i class="bi bi-share"></i>
+				</div>
+				<h3 class="service-title">Social Media Marketing</h3>
+				<p class="service-description">Strategic social media management and marketing.</p>
+				<ul class="service-features">
+					<li>Content Creation</li>
+					<li>Community Management</li>
+					<li>Campaign Strategy</li>
+					<li>Analytics & Reporting</li>
+				</ul>
+			</div>
+	
+			<!-- Social Media Advertising -->
+			<div class="service-card ftco-animate" data-category="ads">
+				<div class="service-icon">
+					<i class="bi bi-megaphone"></i>
+				</div>
+				<h3 class="service-title">Social Media Advertising</h3>
+				<p class="service-description">Targeted advertising campaigns across major platforms.</p>
+				<div class="platforms-grid">
+					<div class="platform-item">
+						<i class="bi bi-instagram"></i>
+						<span>Instagram Ads</span>
+					</div>
+					<div class="platform-item">
+						<i class="bi bi-facebook"></i>
+						<span>Facebook Ads</span>
+					</div>
+					<div class="platform-item">
+						<i class="bi bi-linkedin"></i>
+						<span>LinkedIn Ads</span>
+					</div>
+					<div class="platform-item">
+						<i class="bi bi-youtube"></i>
+						<span>YouTube Ads</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				const filterButtons = document.querySelectorAll('.filter-button');
+				const serviceCards = document.querySelectorAll('.service-card');
+	
+				filterButtons.forEach(button => {
+					button.addEventListener('click', () => {
+						filterButtons.forEach(btn => btn.classList.remove('active'));
+						button.classList.add('active');
+	
+						const category = button.getAttribute('data-category');
+	
+						serviceCards.forEach(card => {
+							if (category === 'all' || card.getAttribute('data-category') === category) {
+								card.style.display = 'block';
+							} else {
+								card.style.display = 'none';
+							}
+						});
+					});
+				});
+			});
+		</script>
+	</section>
+
+<!-- Start Projects Section -->
+<section id="projects" class="ftco-section">
+    <style>
+        .projects-container {
+            padding: 4rem 0;
+            background-color: #212223;
+        }
+
+        .section-heading {
+            margin-bottom: 3.5rem;
+            position: relative;
+        }
+
+        .section-heading h2 {
+            color: white;
+        }
+
+        .projects-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 0 20px;
+        }
+
+        .project-card {
+            width: 350px;
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.5s ease;
+        }
+
+        .project-card.swap {
+            animation: swapEffect 0.8s ease;
+        }
+
+        @keyframes swapEffect {
+            0% { transform: scale(1); }
+            50% { transform: scale(0.9) rotate(5deg); }
+            100% { transform: scale(1); }
+        }
+
+        .model.video {
+            position: relative;
+            aspect-ratio: 16/9;
+            overflow: hidden;
+        }
+
+        .video-thumbnail {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover .video-thumbnail {
+            transform: scale(1.05);
+        }
+
+        .youtube-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: auto;
+            opacity: 0.9;
+            transition: all 0.3s ease;
+            z-index: 2;
+        }
+
+        .project-card:hover .youtube-overlay {
+            width: 70px;
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .projects-wrap {
+                gap: 15px;
+                padding: 0 15px;
+            }
+            .project-card {
+                width: 300px;
+            }
+        }
+    </style>
+
+    <div class="projects-container">
+       <!--  <div class="container">
+            <div class="row justify-content-center mb-5 pb-3">
+                <div class="col-md-6 section-heading text-center ftco-animate">
+                    <h2 class="mb-4">Sneak Peek into Our Works</h2>
+                </div>
+            </div>
+            <div class="projects-wrap" id="projectsWrap">
+                <-- Project cards will be added here >
+            </div>
+        </div>
+	-->
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-6 heading-section text-center ftco-animate">
+				<h2 class="mb-4">Sneak Peek into Our Works</h2>
+				<p>Discover our groundbreaking projects that push the boundaries of content creation and digital marketing, delivering impactful and engaging brand experiences</p>
+			</div>
+			</div>
+			<div class="projects-wrap" id="projectsWrap">
+			<!-- Project cards will be added here -->
+			</div>
+		</div>
+    </div>
+			
+
+
+    <script>
+        const projectsData = [
+            {
+                url: "https://youtube.com/shorts/2SPt3ob6Ksw",
+                img: "images/yt-academic.png",
+                alt: "Academic Project"
+            },
+            {
+                url: "https://youtube.com/shorts/qpMRSYKCx6E",
+                img: "images/yt-elegance.png",
+                alt: "Elegance Project"
+            },
+            {
+                url: "https://youtu.be/f2xT0oF3NP8?si=M6fQ3Znl8XJqvIU1",
+                img: "images/yt-talent.png",
+                alt: "Talent Project"
+            },
+            {
+                url: "https://youtube.com/shorts/zBGxhvnm4oc",
+                img: "images/yt-trivia.png",
+                alt: "Trivia Project"
+            },
+            {
+                url: "https://youtube.com/shorts/zBGxhvnm4oc",
+                img: "images/yt-trivia.png",
+                alt: "Trivia Project 2"
+            }
+        ];
+
+        // Create project cards
+        function createProjectCards() {
+            const container = document.getElementById('projectsWrap');
+            projectsData.forEach(project => {
+                const card = document.createElement('div');
+                card.className = 'project-card';
+                card.innerHTML = `
+                    <a href="${project.url}" target="_blank" class="project-link">
+                        <div class="model video">
+                            <img src="${project.img}" alt="${project.alt}" class="video-thumbnail">
+                            <img src="images/youtube-logo-transparent.png" alt="YouTube Logo" class="youtube-overlay">
+                        </div>
+                    </a>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Swap animation
+        function swapCards() {
+            const cards = document.querySelectorAll('.project-card');
+            const cardArray = Array.from(cards);
+            const container = document.getElementById('projectsWrap');
+
+            // Get two random cards
+            const idx1 = Math.floor(Math.random() * cards.length);
+            let idx2 = Math.floor(Math.random() * cards.length);
+            while(idx2 === idx1) {
+                idx2 = Math.floor(Math.random() * cards.length);
+            }
+
+            // Add animation class
+            cardArray[idx1].classList.add('swap');
+            cardArray[idx2].classList.add('swap');
+
+            // Swap the cards in DOM
+            setTimeout(() => {
+                container.insertBefore(cardArray[idx1], cardArray[idx2]);
+                cardArray[idx1].classList.remove('swap');
+                cardArray[idx2].classList.remove('swap');
+            }, 400);
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            createProjectCards();
+            setInterval(swapCards, 3000); // Swap every 3 seconds
+        });
+    </script>
+</section>
+<!-- End Projects Section -->
+
+<!-- Start Collaborations Section -->
+<section id="collabs" class="ftco-section">
+	<style>
+	  .creator-carousel-container {
+		width: 100%;
+		overflow: hidden;
+		position: relative;
+	  }
+  
+	  .creator-carousel {
+		width: 100%;
+		padding: 20px 0;
+	  }
+  
+	  .creator-track {
+		display: flex;
+		animation: scroll 30s linear infinite;
+	  }
+  
+	  .creator-item {
+		flex: 0 0 300px;
+		margin: 0 15px;
+		padding: 20px;
+		background: #fff;
+		border-radius: 10px;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease;
+	  }
+  
+	  .creator-item:hover {
+		transform: translateY(-10px);
+	  }
+  
+	  .creator-item img {
+		width: 100%;
+		height: 200px;
+		object-fit: cover;
+		border-radius: 8px;
+		margin-bottom: 15px;
+	  }
+  
+	  .creator-item h3 {
+		font-size: 1.2rem;
+		margin-bottom: 8px;
+		color: #333;
+	  }
+  
+	  .creator-item p {
+		font-size: 0.9rem;
+		color: #666;
+	  }
+  
+	  @keyframes scroll {
+		0% {
+		  transform: translateX(0);
+		}
+		100% {
+		  transform: translateX(calc(-300px * 8 - 30px * 8));
+		}
+	  }
+  
+	  .creator-carousel:hover .creator-track {
+		animation-play-state: paused;
+	  }
+	</style>
+  
+	<div class="container">
+	  <div class="row justify-content-center">
+		<div class="col-md-6 heading-section text-center ftco-animate pb-5">
+		  <h2 class="mb-4">Our Creative Collaborations</h2>
+		  <p>Discover the brilliant minds we've partnered with to bring you exceptional content.</p>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-md-12">
+		  <div class="creator-carousel-container">
+			<div class="creator-carousel" id="creatorCarousel">
+			  <div class="creator-track">
+				<!-- Original items -->
+				<div class="creator-item">
+					<img src="images/LifeStyle1.png" alt="Lifestyle Influencer">
+					<h3>Komal </h3>
+					<p>Lifestyle Influencer</p>
+				  </div>
+				  <div class="creator-item">
+					<img src="images/fin1.png" alt="Finance Influencer">
+					<h3>Pranjal </h3>
+					<p>Finance Influencer</p>
+				  </div>
+				  <div class="creator-item">
+					<img src="images/Sharan1.png" alt="Career Coach">
+					<h3>Sharan </h3>
+					<p>Career Coach</p>
+				  </div>
+				  <div class="creator-item">
+					<img src="images/person_41.jpg" alt="Academic Influencer">
+					<h3>Gaurav </h3>
+					<p>Academic Influencer</p>
+				  </div>
+				  <div class="creator-item">
+					<img src="images/beauty1.png" alt="Fashion Influencer">
+					<h3>Sakshi </h3>
+					<p>Fashion Influencer</p>
+				  </div>
+				  <div class="creator-item">
+					<img src="images/food11.png" alt="Food Influencer">
+					<h3>Sanjeev </h3>
+					<p>Food Influencer</p>
+				  </div>
+				  <div class="creator-item">
+					<img src="images/fitness1.png" alt="Fitness Influencer">
+					<h3>Ranveer </h3>
+					<p>Fitness Influencer</p>
+				  </div>
+				  <div class="creator-item">
+					<img src="images/model-81.jpg" alt="Travel Influencer">
+					<h3>Varun </h3>
+					<p>Travel Influencer</p>
+				  </div>
+				  
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  
+	<script>
+	  document.addEventListener('DOMContentLoaded', function() {
+		const track = document.querySelector('.creator-track');
+		
+		// Clone items for seamless infinite scroll
+		const items = document.querySelectorAll('.creator-item');
+		items.forEach(item => {
+		  const clone = item.cloneNode(true);
+		  track.appendChild(clone);
+		});
+		
+		// Reset animation when it completes
+		track.addEventListener('animationend', () => {
+		  track.style.animation = 'none';
+		  track.offsetHeight; // Trigger reflow
+		  track.style.animation = null;
+		});
+	  });
+	</script>
+  </section>
+  <!-- End Collaborations Section -->
+
+    <!-- Start Contact Section -->
+    <section class="ftco-section contact-section" id="contact">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-4 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Contact Us</h2>
+            <p>Innovation Starts with a Conversation! 🎨 Whether You’re a Brand or a Creator, Let’s Build Something Extraordinary Together</p>
+			<p>🚀 Connect with Markit Media for Game-Changing Collaborations. </p>
+		  </div>
+		</div>
+
+
+        <div class="row mb-5">
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="align-self-stretch box text-center p-4">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-map-signs"></span>
+              </div>
+              <div>
+                <h3 class="mb-4">Address</h3>
+                <p>We Work Remotely!<br>Hyderabad, India</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="align-self-stretch box text-center p-4">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-phone2"></span>
+              </div>
+              <div>
+                <h3 class="mb-4">Contact Us</h3>
+                <p><a href="tel://+918639892567">+91 8639892567</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="align-self-stretch box text-center p-4">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-paper-plane"></span>
+              </div>
+              <div>
+                <h3 class="mb-4">Email Us</h3>
+                <p><a href="mailto:charan@markitmedia.in">CHARAN@MARKITMEDIA.IN</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 d-flex ftco-animate">
+            <div class="align-self-stretch box text-center p-4">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="icon-globe"></span>
+              </div>
+              <div>
+                <h3 class="mb-4">Visit Us</h3>
+                <p><a href="https://markitmedia.in">markitmedia.in</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  <!-- Start Footer Section -->
+<footer class="ftco-footer py-5 bg-dark text-white">
+	<div class="container text-center">
+	  <div class="row">
+		<div class="col-md-12">
+		  <!-- Logo Section -->
+		  <div class="footer-logo mb-3">
+			<a href="index.html">
+			  <img src="images/MM_logo.png" alt="Markit Media Logo" class="img-fluid" style="max-width: 150px;">
+			</a>
+		  </div>
+  
+		  <!-- Navigation Links -->
+		  <ul class="list-inline mb-3">
+			<li class="list-inline-item"><a href="privacy.html" class="text-white">Privacy Policy</a></li>
+			<li class="list-inline-item"><a href="tas.html" class="text-white">Terms of Service</a></li>
+			<li class="list-inline-item"><a href="mailto:charan@markitmedia.in" class="text-white">Careers</a></li>
+		  </ul>
+  
+		  <!-- Copyright -->
+		  <p class="mb-2">
+			&copy; <script>document.write(new Date().getFullYear());</script> Markit Media. All rights reserved.
+		  </p>
+		  
+		  <!-- Social Media Links -->
+		  <ul class="ftco-footer-social list-inline p-0">
+			<li class="list-inline-item"><a href="https://www.x.com/markitmedia.in/" aria-label="Twitter" class="text-white"><span class="icon-twitter"></span></a></li>
+			<li class="list-inline-item"><a href="https://www.facebook.com/markitmedia.in/" class="text-white"><span class="icon-facebook"></span></a></li>
+			<li class="list-inline-item"><a href="https://www.instagram.com/markitmedia.in/" class="text-white"><span class="icon-instagram"></span></a></li>
+		  </ul>
+		</div>
+	  </div>
+	</div>
+  </footer>
+  
+<!-- End Footer Section -->
+   
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
